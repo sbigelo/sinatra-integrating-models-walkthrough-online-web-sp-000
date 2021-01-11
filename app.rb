@@ -14,21 +14,4 @@ class App < Sinatra::Base
     erb :results
   end
 
-  get '/index' do
-    erb :index
-  end
-
-  get '/layout' do
-    erb :layout
-  end
-
-  # get '/results' do
-  #   erb :results
-  # end
-
-  post '/results' do
-    @num = params[:count_of_words]
-    erb :results
-  end
-
 end
