@@ -14,4 +14,8 @@ class App < Sinatra::Base
     erb :results
   end
 
+  get '/index' do
+    erb :index
+  end
+
 end
