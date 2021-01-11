@@ -18,4 +18,12 @@ class App < Sinatra::Base
     erb :index
   end
 
+  get '/layout' do
+    erb :layout
+  end
+
+  get '/results' do
+    erb :results
+  end
+
 end
